@@ -69,6 +69,15 @@
       object-fit: cover; /* Recorta manteniendo proporción */
     }
 
+    /* Efecto hover para las cards */
+    .card {
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      z-index: 2;
+    }
+
     footer {
       height: 50px;
       background-color: #3a4852;
